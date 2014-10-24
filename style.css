@@ -1,0 +1,58 @@
+html, body{
+background: url(/Users/melissaries/Documents/HTWG-Skripte/Semester4/WEB_TECH/Webseite/Nachhilfe/backgroungImage.jpg);
+}
+
+#header{
+	background-image: url("header.jpg");
+	height: 350px;
+	width:1000px;
+	
+}
+
+#Anmeldung{
+	font-size: small;
+	position: absolute;
+	margin-left:700px;
+	margin-top: 10px;
+}
+#login{
+	margin-left:18px;
+}
+#psw{
+	margin-top:0px;
+}
+#registrierung{
+	margin-left:100px;
+}
+#wrapper
+{
+	width: 900px;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	padding 0;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+li{
+	float: left;
+	margin: 10px 30px;
+}
+
+nav
+{
+	background-color: black;
+	height: 30px;
+}
+
+nav a
+{
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover
+{
+	text-decoration: underline;
+}
