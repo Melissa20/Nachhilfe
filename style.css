@@ -1,5 +1,5 @@
 html, body{
-background: url(backgroungImage.jpg);
+background: url(/Users/melissaries/Documents/HTWG-Skripte/Semester4/WEB_TECH/Webseite/Nachhilfe/backgroungImage.jpg);
 }
 
 #header{
@@ -22,7 +22,7 @@ background: url(backgroungImage.jpg);
 	margin-top:0px;
 }
 #registrierung{
-	margin-left:100px;
+	margin-left:70px;
 }
 #wrapper
 {
@@ -35,7 +35,7 @@ background: url(backgroungImage.jpg);
 	overflow: hidden;
 }
 
-li{
+li.Fach{
 	float: left;
 	margin: 10px 30px;
 }
@@ -57,18 +57,63 @@ nav a:hover
 	text-decoration: underline;
 }
 
-#Mathe
-{
-	font-size:large;
-	font-weight:bold;
+#absenden{
+	margin-left:70px;
 }
 
-#Fach-Überschrift
-{
-	font-size:x-large;
-	color: white;
-	font-weight: bold;
-   	margin-left: auto;
-    margin-right: auto;
-    width: 15em
+
+#list submit{
+margin-left:500px;
+}
+
+#navi {
+  position:absolute;  
+}
+#navi ul {
+  list-style-type:none;
+  list-style-image:none;
+  margin:0px;
+  padding:0px;
+}
+
+.Fach ul{
+  display:none;
+}
+.Fach a, .Grundschule a, .Hauptschule a, .Realschule a, .Gymnasium a{
+  /*padding:1px 5px;*/
+  font-weight:bold;
+  border:5px #FFFFFF;
+  border-collapse:collapse;
+  color:#FFFFFF;
+  font-weight:bold;
+  text-decoration:none;
+  background-color:#000;
+  border-collapse:collapse;
+  margin:0;  
+}
+.Grundschule a, .Hauptschule a, .Realschule a, .Gymnasium a{
+  font-size:12px;
+  position:relative;
+  float:down;
+  clear:both;
+}
+
+.Fach:hover ul {
+  display:block;  
+  z-index:50;
+}
+/*Über uns*/
+
+/*Video*/
+
+/*Kommentarbox*/
+
+/*_______________________________________________________________________________________*/
+
+#wrapper .list{
+margin-left:50px;
+
+#wrapper.senden #submit{
+margin-left:300px;
+} 
 }
