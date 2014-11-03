@@ -1,5 +1,5 @@
 html, body{
-background: url(/Users/melissaries/Documents/HTWG-Skripte/Semester4/WEB_TECH/Webseite/Nachhilfe/backgroungImage.jpg);
+background: url(backgroungImage.jpg);
 }
 
 #header{
@@ -55,4 +55,20 @@ nav a
 nav a:hover
 {
 	text-decoration: underline;
+}
+
+#Mathe
+{
+	font-size:large;
+	font-weight:bold;
+}
+
+#Fach-Überschrift
+{
+	font-size:x-large;
+	color: white;
+	font-weight: bold;
+   	margin-left: auto;
+    margin-right: auto;
+    width: 15em
 }
