@@ -9,24 +9,80 @@
 	<body>
 	<div id="wrapper">
 	<div id="Anmeldung">
-	<p>Login: <input id="login" type="text" name="login"></p>
-	<p>Passwort: <input id="psw" type="text" name="passwort"></p>
+		<p>Login: <input id="login" type="email" placeholder="max.muster@email.com" name="login" required></p>
+		<p>Passwort: <input id="psw" type="password" name="passwort" required></p>
+			<input id="absenden" type="submit" value="Absenden ">
 	<div id="registrierung"><a href="/Users/melissaries/Documents/HTWG-Skripte/Semester4/WEB_TECH/Webseite/Nachhilfe/Registrierung.html">Registrieren?</a></div>
 	</div>
 	<img src="/Users/melissaries/Documents/HTWG-Skripte/Semester4/WEB_TECH/Webseite/Nachhilfe/header.png" id="header">
 	
-	<nav>
+	<nav id="navi">
 	<ul style="list-style-type:none;">
-		<li id="mathe"><a href="/Users/melissaries/Documents/HTWG-Skripte/Semester4/WEB_TECH/Webseite/Nachhilfe/Mathematik.html">Mathematik</a></li>
-		<li id="deutsch"><a href="/Users/melissaries/Documents/HTWG-Skripte/Semester4/WEB_TECH/Webseite/Nachhilfe/Deutsch.html">Deutsch</a></li>
-		<li id="englisch"><a href="/Users/melissaries/Documents/HTWG-Skripte/Semester4/WEB_TECH/Webseite/Nachhilfe/Englisch.html">Englisch</a></li>
-		<li id="physik"><a href="/Users/melissaries/Documents/HTWG-Skripte/Semester4/WEB_TECH/Webseite/Nachhilfe/Physik.html">Physik</a></li>
-		<li id="chemie"><a href="/Users/melissaries/Documents/HTWG-Skripte/Semester4/WEB_TECH/Webseite/Nachhilfe/Chemie.html">Chemie</a></li>
-		<li id="bio"><a href="/Users/melissaries/Documents/HTWG-Skripte/Semester4/WEB_TECH/Webseite/Nachhilfe/Biologie.html">Biologie</a></li>
-		<li id="inf"><a href="/Users/melissaries/Documents/HTWG-Skripte/Semester4/WEB_TECH/Webseite/Nachhilfe/Informatik.html">Informatik</a></li>
+		<li class="Fach"><a href="/Users/melissaries/Documents/HTWG-Skripte/Semester4/WEB_TECH/Webseite/Nachhilfe/Mathematik.html">Mathematik</a>
+			<ul style="list-style-type:none;">
+				<li id="grundschule"><a href="">Grundschule</li>
+				<li id="hauptschule"><a href="">Hauptschule</li>
+				<li id="realschule"><a href="">Realschule</li>
+				<li id="gymnasium"><a href="">Gymnasium</li>
+			</ul>
+		</li>	
+		<li class="Fach"><a href="/Users/melissaries/Documents/HTWG-Skripte/Semester4/WEB_TECH/Webseite/Nachhilfe/Deutsch.html">Deutsch</a>
+			<ul style="list-style-type:none;">
+				<li id="grundschule"><a href="">Grundschule</li>
+				<li id="hauptschule"><a href="">Hauptschule</li>
+				<li id="realschule"><a href="">Realschule</li>
+				<li id="gymnasium"><a href="">Gymnasium</li>
+			</ul>
+		</li>
+		<li class="Fach"><a href="/Users/melissaries/Documents/HTWG-Skripte/Semester4/WEB_TECH/Webseite/Nachhilfe/Englisch.html">Englisch</a>
+			<ul style="list-style-type:none;">
+				<li id="grundschule"><a href="">Grundschule</li>
+				<li id="hauptschule"><a href="">Hauptschule</li>
+				<li id="realschule"><a href="">Realschule</li>
+				<li id="gymnasium"><a href="">Gymnasium</li>
+			</ul>
+		</li>
+		<li class="Fach"><a href="/Users/melissaries/Documents/HTWG-Skripte/Semester4/WEB_TECH/Webseite/Nachhilfe/Physik.html">Physik</a>
+			<ul style="list-style-type:none;">
+				<li id="grundschule"><a href="">Grundschule</li>
+				<li id="hauptschule"><a href="">Hauptschule</li>
+				<li id="realschule"><a href="">Realschule</li>
+				<li id="gymnasium"><a href="">Gymnasium</li>
+			</ul>
+		</li>
+		<li class="Fach"><a href="/Users/melissaries/Documents/HTWG-Skripte/Semester4/WEB_TECH/Webseite/Nachhilfe/Chemie.html">Chemie</a>
+			<ul style="list-style-type:none;">
+				<li id="grundschule"><a href="">Grundschule</li>
+				<li id="hauptschule"><a href="">Hauptschule</li>
+				<li id="realschule"><a href="">Realschule</li>
+				<li id="gymnasium"><a href="">Gymnasium</li>
+			</ul>
+		</li>
+		<li class="Fach"><a href="/Users/melissaries/Documents/HTWG-Skripte/Semester4/WEB_TECH/Webseite/Nachhilfe/Biologie.html">Biologie</a>
+			<ul style="list-style-type:none;">
+				<li id="grundschule"><a href="">Grundschule</li>
+				<li id="hauptschule"><a href="">Hauptschule</li>
+				<li id="realschule"><a href="">Realschule</li>
+				<li id="gymnasium"><a href="">Gymnasium</li>
+			</ul>
+		</li>
+		<li class="Fach"><a href="/Users/melissaries/Documents/HTWG-Skripte/Semester4/WEB_TECH/Webseite/Nachhilfe/Informatik.html">Informatik</a>
+			<ul style="list-style-type:none;">
+				<li id="grundschule"><a href="">Grundschule</li>
+				<li id="hauptschule"><a href="">Hauptschule</li>
+				<li id="realschule"><a href="">Realschule</li>
+				<li id="gymnasium"><a href="">Gymnasium</li>
+			</ul>
+		</li>
 	</ul>
 	</nav>
+			
+			<p> Über uns:
+				Wir sind ein Online-Nachhilfeportal, in dem sich jeder kostenlos anmelden kann und entweder Nachhilfe nehmen kann
+				oder Nachhilfe geben kann. 
+				Wir bieten Nachhilfe von der Grundschule bis zum Gymnasium an.
+			</p>
+		</div>		
 	</body>
-	</div>
 </html>
 
