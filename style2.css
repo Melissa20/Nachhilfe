@@ -1,10 +1,6 @@
 html, body{
-<<<<<<< HEAD
 background-color:#CCAAAA;
  /*url(/Users/melissaries/Documents/HTWG-Skripte/Semester4/WEB_TECH/Webseite/Nachhilfe/backgroungImage.jpg);*/
-=======
-background: url(backgroungImage.jpg);
->>>>>>> a3297119f3b0d500162cd2e7a83597c6e3c1dc98
 }
 
 #header{
