@@ -5,22 +5,22 @@
 		<link rel="SHORTCUT ICON" href="favicon.ico" type="image/x-icon">
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="Nachhilfe/style.css">
-	</title>
+	</head>
 	<body>
 	<div id="wrapper">
-		<img src="header.png" id="header">
+		<img src="header.png" id="header" alt="Menü">
 		
 		
 		<div id="profilbild">
 		<p>Laden Sie ein Profilbild von sich hoch:<br>
-		<form action="input_file.htm" method="post" enctype="multipart/form-data">
-		<input name="Datei" type="file" size="50" maxlength="100000" accept="text/*">
+		<form action="input_file.htm" method="post" enctype="multipart/form-data"></form>
+		<input name="Datei" type="file" accept="text/*">
 		</div>
 		
 		<ul id="list" style="list-style-type:none;">
-			<p>Vorname     : <input class="vorname" type="text" pattern="[A-Za-z]" placeholder="Vorname" name="vorname"></p>
-			<p>Nachname    : <input id="nachname" type="text" pattern="[A-Za-z]" placeholder="Nachname" name="nachname"></p>
-			<p>Geburtsdatum: <select>
+			<li>Vorname     : <input class="vorname" type="text" pattern="[A-Za-z]" placeholder="Vorname" name="vorname"></li>
+			<li>Nachname    : <input id="nachname" type="text" pattern="[A-Za-z]" placeholder="Nachname" name="nachname"></li>
+			<li>Geburtsdatum: <select>
  								 <option value="1">1</option>
   								 <option value="2">2</option>
  								 <option value="3">3</option>
@@ -129,10 +129,10 @@
 					             <option value="2006">2006</option>
 					             <option value="2007">2007</option>
 					             <option value="2008">2008</option>
-					        </select>					
-			<p>Straße      :   <input id="straße" type="text" placeholder="Max-Muster-Straße 23" name="straße"></p>
-			<p>Postleitzahl: <input id="plz" type="text" pattern="^[0-9]{5}$" required value="" placeholder="11111" name="postleitzahl"></p>
-			<p>Wohnort     : <input id="wohnort" type="text" placeholder="Maxmusterstadt" name="wohnort"></p>
+					        </select></li>					
+			<li>Straße      :   <input id="straße" type="text" placeholder="Max-Muster-Straße 23" name="straße"></li>
+			<li>Postleitzahl: <input id="plz" type="text" pattern="^[0-9]{5}$" required value="" placeholder="11111" name="postleitzahl"></li>
+			<li>Wohnort     : <input id="wohnort" type="text" placeholder="Maxmusterstadt" name="wohnort"></li>
 		</ul>
 		
 		<p>Nachhilfe geben:<input type="radio" name="Nachhilfe" value="Nachhilfe geben">  Nachhilfe nehmen:<input type="radio" name="Nachhilfe" value="Nachhilfe nehmen"></p>
@@ -142,4 +142,3 @@
 		 </p>
 	 </div>
 	</body>
-</head>
