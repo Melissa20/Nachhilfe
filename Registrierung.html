@@ -10,6 +10,13 @@
 	<div id="wrapper">
 		<img src="/Users/melissaries/Documents/HTWG-Skripte/Semester4/WEB_TECH/Webseite/Nachhilfe/header.png" id="header">
 		
+		
+		<div id="profilbild">
+		<p>Laden Sie ein Profilbild von sich hoch:<br>
+		<form action="input_file.htm" method="post" enctype="multipart/form-data">
+		<input name="Datei" type="file" size="50" maxlength="100000" accept="text/*">
+		</div>
+		
 		<ul id="list" style="list-style-type:none;">
 			<p>Vorname     : <input class="vorname" type="text" pattern="[A-Za-z]" placeholder="Vorname" name="vorname"></p>
 			<p>Nachname    : <input id="nachname" type="text" pattern="[A-Za-z]" placeholder="Nachname" name="nachname"></p>
@@ -127,6 +134,7 @@
 			<p>Postleitzahl: <input id="plz" type="text" pattern="^[0-9]{5}$" required value="" placeholder="11111" name="postleitzahl"></p>
 			<p>Wohnort     : <input id="wohnort" type="text" placeholder="Maxmusterstadt" name="wohnort"></p>
 		</ul>
+		
 		<p>Nachhilfe geben:<input type="radio" name="Nachhilfe" value="Nachhilfe geben">  Nachhilfe nehmen:<input type="radio" name="Nachhilfe" value="Nachhilfe nehmen"></p>
 		 <p class="senden">
 		 	<input id="submit" type="submit" value="Absenden">
