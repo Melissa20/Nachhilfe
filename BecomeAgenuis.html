@@ -9,12 +9,14 @@
 	<body>
 	<div id="wrapper">
 	<div id="Anmeldung">
-		<p>Login: <input id="login" type="email" placeholder="max.muster@email.com" name="login" required></p>
-		<p>Passwort: <input id="psw" type="password" name="passwort" required></p>
-			<input id="absenden" type="submit" value="Absenden ">
+		<form>
+			<p>Login: <input id="login" type="email" placeholder="max.muster@email.com" name="login" required/></p>
+			<p>Passwort: <input id="psw" type="password" name="passwort" required/></p>
+			<input id="absenden" type="submit" value="Absenden"/>
+		</form>
 	<div id="registrierung"><a href="Registrierung.html">Registrieren?</a></div>
 	</div>
-	<img src="header.png" id="header" alt="Menü">
+	<img src="header.png" id="header" alt="Menü"/>
 	
 	<nav id="navi">
 	<ul style="list-style-type:none;">
@@ -100,9 +102,11 @@
 		<div id="kommentar">
 			Möchtest du ein Kommentar hinzufügen?!<br>
 			Hier einfach eintragen und abschicken<br>
+			<form>
 			 <textarea id=kommentarId name="kommentarbox" cols="30" rows="40"></textarea><br>
-			 <input id="submit" type="submit" value="Absenden">
-			<input id="abbruch" type="reset" value="Abbrechen" >
+			 <input id="submit" type="submit" value="Absenden"/>
+			<input id="abbruch" type="reset" value="Abbrechen"/>
+			</form>
 		</div>	
 	</body>
 </html>
